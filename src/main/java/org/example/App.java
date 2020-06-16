@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.service.CalcService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

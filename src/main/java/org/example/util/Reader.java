@@ -1,6 +1,5 @@
-package org.example;
+package org.example.util;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
@@ -34,6 +33,7 @@ public class Reader {
                 return number;
             } catch (NullPointerException | NumberFormatException e) {
                 Writer.write("Number incorrect! Try again!");
+                return 0;
             }
         }
     }
@@ -50,7 +50,7 @@ public class Reader {
 
             } catch (NullPointerException e) {
                 Writer.write("Was entered incorrect operation, try again!");
-
+                return null;
             }
 
         }
